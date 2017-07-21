@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="EchoBackSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="full">
+        <property name="ReceiveEcho" value="#######################Recive From Echo###############"/>
+    </log>
+    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+    <property name="OUT_ONLY" scope="default" type="STRING" value="true"/>
+    <send>
+        <endpoint>
+            <address uri="vfs:file:///home/viraj/test/out"/>
+        </endpoint>
+    </send>
+</sequence>

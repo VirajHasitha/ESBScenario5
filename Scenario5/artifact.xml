@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="Scenario5IEP" groupId="com.example.Scenario5.inbound-endpoint" version="1.0.0" type="synapse/inbound-endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/inbound-endpoints/Scenario5IEP.xml</file>
+    </artifact>
+    <artifact name="MessageIn" groupId="com.example.Scenario5.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/MessageIn.xml</file>
+    </artifact>
+    <artifact name="ReceiveSequence" groupId="com.example.Scenario5.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ReceiveSequence.xml</file>
+    </artifact>
+    <artifact name="EchoBackSequence" groupId="com.example.Scenario5.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/EchoBackSequence.xml</file>
+    </artifact>
+    <artifact name="dfsaf" groupId="com.example.Scenario5.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/dfsaf.xml</file>
+    </artifact>
+</artifacts>
